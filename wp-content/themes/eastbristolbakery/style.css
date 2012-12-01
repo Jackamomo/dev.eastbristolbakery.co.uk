@@ -1,0 +1,104 @@
+/*
+Theme Name:         Roots
+Theme URI:          http://www.rootstheme.com/
+Description:        Roots is a starting WordPress theme made for developers that's based on HTML5 Boilerplate and Bootstrap from Twitter. <a href="https://github.com/retlehs/roots/contributors">Contribute on GitHub</a>
+Version:            6.1.0
+Author:             Ben Word
+Author URI:         http://benword.com/
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+body {
+    padding-top:0 !important;
+}
+
+body.home {
+    background-image:url('images/home-background.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 0;
+    background-color:#ccc;
+}
+
+a.brand {
+    width:147px;
+    height:147px;
+    background:url('images/ebb-logo.jpg') no-repeat;
+    display:block;
+    outline:hidden;
+    text-indent:-1000em;
+}
+
+#home-leftbar {
+    padding:20px 0 0 40px;
+    background-image:url('images/home-leftbar-bg.png');
+    background-repeat:no-repeat;
+}
+
+#opening-times h4 {
+    font-family:'Helvetica LT Std';
+}
+
+#opening-times {
+    margin-top:20px;
+}
+
+ul#menu-main-menu {
+    padding-top:30px;
+    max-height:200px;
+    margin-bottom:1em;
+    overflow:hidden;
+}
+
+ul#menu-main-menu li {
+    float:left;
+    font-size:2.5em;
+    line-height:1.2em;
+    margin-right:1em;
+    text-shadow: 0 0 30px #000;
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+    ul#menu-main-menu {
+        
+    }
+    ul#menu-main-menu li {
+        font-size:2.2em;
+    }
+}
+
+ul#menu-main-menu li:after {
+    content:'';
+}
+
+ul#menu-main-menu li a {
+    color:#fff;
+}
+
+ul#menu-main-menu li a:hover {
+    background:none;
+    color:#333;
+}
+
+#home-intro {
+    padding-top:.5em;
+    font-size:1.5em;
+    line-height:1.3em;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-UltraComp.otf');
+}
+
+#menu-main-menu li {
+    padding:.5em 0;
+    text-transform:uppercase;
+}
+
+#menu-main-menu li a {
+    font-size:1.6em;
+    font-family:'Helvetica LT Std';
+    letter-spacing:.04em;
+}
